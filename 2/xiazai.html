@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="yes" name="apple-touch-fullscreen"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="HandheldFriendly" content="true" />
+<title>意时保险黑板擦</title>
+<link type="text/css" href="style.css" rel="stylesheet">
+<style>
+body,html{
+  padding:0;margin:0;
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section,figure{margin:0;padding:0;border:0;outline:0;font-weight:normal;font-size:100%;vertical-align:baseline;word-break:break-all}
+.wrapper {
+  width:100%;
+  height:100%;
+}
+.image_wrap img{
+  width:100%;
+  display:block;
+}
+.images_wrap {width:100%;}
+#android_btn,#ios_btn{}
+</style>
+</head>
+<body>
+	<section class="wrapper">
+		<figure class="image_wrap"><img src="images/hbc_r1_c1.png" /></figure>
+		<figure class="image_wrap"><img src="images/hbc_r2_c1.png" /></figure>
+		<figure class="image_wrap"><img src="images/hbc_r3_c1.png" /></figure>
+		<figure class="image_wrap"><img src="images/hbc_r4_c1.png" /></figure>
+        <figure class="image_wrap"><img src="images/hbc_r5_c1.png" /></figure>
+		<figure class="image_wrap">
+			<a href="http://www.baidu.com/" target="_blank">
+				<img src="images/hbc_r6_c1.png" id="android_btn"/>
+			</a>
+		</figure>
+        <figure class="image_wrap">
+			<a href="http://www.sina.com.cn/" target="_blank">
+        		<img src="images/hbc_r6_c1_ios.png" id="ios_btn" />
+        	</a>
+		</figure>
+		<figure class="image_wrap"><img src="images/hbc_r7_c1.png" /></figure>
+	</section>
+</body>
+<!--<script>
+window.onload = function () {
+	if (/android/i.test(navigator.userAgent)){
+		document.getElementById("android_btn").style.display="block";
+	}else{
+		document.getElementById("ios_btn").style.display="block";
+	}
+}
+var imgUrl ='http://www.ins110.com/extend/hbc1127/images/hbc_wxshare_icon.png';  
+var lineLink = location.href; 
+var shareTitle = '意时保险黑板擦'; 
+var descContent = "出意外了，找保险黑板擦就“够”了！"; 
+var shareOTitle = '出意外了，找保险黑板擦就“够”了！'; 
+var appid = ''; 
+function shareFriend(){WeixinJSBridge.invoke('sendAppMessage',{"appid":appid,"img_url":imgUrl,"img_width":"200","img_height":"200","link":lineLink,"desc":descContent,"title":shareTitle},function(res){})}function shareTimeline(){WeixinJSBridge.invoke('shareTimeline',{"img_url":imgUrl,"img_width":"200","img_height":"200","link":lineLink,"desc":shareOTitle,"title":shareOTitle},function(res){})}function shareWeibo(){WeixinJSBridge.invoke('shareWeibo',{"content":descContent,"url":lineLink,},function(res){})}document.addEventListener('WeixinJSBridgeReady',function onBridgeReady(){WeixinJSBridge.on('menu:share:appmessage',function(argv){shareFriend()});WeixinJSBridge.on('menu:share:timeline',function(argv){shareTimeline()});WeixinJSBridge.on('menu:share:weibo',function(argv){shareWeibo()})},false);
+
+</script>
+<span style="display:none">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fdbd3bda3c9b729b8ffbeb878c52f71cf' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</span>-->
+</html>
