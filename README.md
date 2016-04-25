@@ -5,4 +5,4 @@
 
 ![](https://github.com/SauerkrautWhite/JJdownloadPages/blob/master/1/images/1.png)
 
-![](https://github.com/SauerkrautWhite/JJdownloadPages/blob/master/1/images/1.png)
+![](https://github.com/SauerkrautWhite/JJdownloadPages/blob/master/1/images/2.png)
